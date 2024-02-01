@@ -48,9 +48,7 @@ print(f"O nome do meio e: {name[len(name) // 2]}")
 nome = str(input("Escreva seu nome completo:\n")).strip()
 
 print(f"Seu nome e {nome}")
-print(f"O seu primeiro e ultimo nome e: {nome.split()[0] +" "+ nome.split()[len(nome.split()) - 1 ]}")
+print(f"O seu primeiro e ultimo nome e: {nome.split()[0] +' '+ nome.split()[len(nome.split()) - 1 ]}")
 print(f"O nome do meio e: {nome.split()[len(nome.split()) // 2]}")
 
 """
-
-
