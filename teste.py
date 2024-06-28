@@ -19,3 +19,5 @@ print(name3 >= name4)
 print(name3 <= name4)
 print(name3 == name4)
 print(name3 != name4)
+
+print(name3 =+ name4)
